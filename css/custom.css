@@ -1,0 +1,160 @@
+html {
+  font-family: Shabnam;
+}
+
+body{
+  background-color: #fafafa;
+}
+
+main {
+  direction: rtl;
+}
+
+h1 {
+  font-size: 1.666rem;
+}
+h3{
+  font-size: 1.0666rem;
+}
+
+
+
+
+
+/* shabnam */
+@font-face {
+  font-family: Shabnam;
+  src: url('/fonts/shabnam/Shabnam.eot');
+  src: url('/fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/shabnam/Shabnam.woff') format('woff'),
+       url('/fonts/shabnam/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: Shabnam;
+  src: url('/fonts/shabnam/Shabnam-Bold.eot');
+  src: url('/fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+       url('/fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/fonts/shabnam/Shabnam-Light.eot');
+  src: url('/fonts/shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/shabnam/Shabnam-Light.woff') format('woff'),
+       url('/fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* header */
+
+nav {
+  box-shadow: unset;
+}
+nav .brand-logo{
+  color:#212121;
+  right: 0;
+}
+nav ul li {
+  float: right;
+}
+nav ul a{
+  color: #212121;
+  font-size: 0.8666rem;
+}
+nav ul li span {
+  color: #c62537;
+}
+
+nav ul a:hover{
+  background-color: transparent;
+}
+
+
+
+/* search box */
+.search-box{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+
+.search-input{
+  width: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+  height: 60px;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+.search-input input#search-input{
+  border-bottom: unset;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.search-input input#search-input:focus{
+  border-bottom: unset ;
+  box-shadow: unset ;
+}
+
+#search-input-location{
+  width: 14px;
+}
+
+#search-input-search {
+  width:40px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 11px;
+  background-color: #31bad5;
+  box-shadow: 0 1px 3px 0 #31bad5;
+  margin: 0px 10px;
+}
+
+
+/* category */
+.category-box{
+  padding: 15px 0px;
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-box .category-product {
+  width: 200px;
+  margin-left:15px;
+}
+.category-box .category-product img {
+  height: 70px;
+  object-fit: cover;
+  width:200px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.category-box .category-product .category-product-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-box .category-product .category-product-content a:first-child{
+  color:#212121;
+}
+
