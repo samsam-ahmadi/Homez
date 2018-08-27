@@ -1,5 +1,7 @@
 @media only screen and (max-width: 601px) {
-   
+   .search-input{
+     width: 90%;
+   }
 }
 @media only screen and (max-width: 920px) {
 }
@@ -12,7 +14,10 @@
 @media only screen and (min-width: 993px){
 	.container {
 	    width: 85%;
-	}  
+  }  
+  .owl-carousel .owl-stage-outer{
+    overflow: inherit;
+  }
 }
 @media only screen and (min-width: 1201px) {}
 @media only screen and (min-width: 1201px) {}
