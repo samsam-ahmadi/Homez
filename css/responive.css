@@ -8,6 +8,18 @@
 
 
 @media only screen and (max-width: 993px){
+  .new-homez{
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+  .new-homez::after{
+    display: none;
+  }
+  .new-homez .owl-stage {
+    display: flex;
+    justify-content: start;
+    flex-flow: row nowrap;
+  }
 }
 
 

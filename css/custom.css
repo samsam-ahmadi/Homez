@@ -16,8 +16,24 @@ h1 {
 h3{
   font-size: 1.0666rem;
 }
+.border-bottom{
+  position: relative;
+}
 
-
+.mg-top{
+  margin-top: 25px;
+}
+.border-bottom::after{
+  content: "";
+  width:50px;
+  height:2px;
+  background-color: #06b3a8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
 
 
 
@@ -161,3 +177,95 @@ nav ul a:hover{
   color:#212121;
 }
 
+
+
+/* new homez */
+.homez-sec{
+  overflow: hidden;
+}
+.homez-sec h2{
+  font-size: 1.0666rem;
+}
+
+.new-homez{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.new-homez::after{
+  content:"";
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  bottom:80px;
+  z-index: -1;
+  transform: rotate( -12deg );
+  -webkit-transform: rotate( -12deg );
+  -moz-transform: rotate( -12deg );
+  -ms-transform: rotate( -12deg );
+  -o-transform: rotate( -12deg );
+  transform-origin: bottom left;
+  left:40%; 
+  bottom:-90px;
+}
+
+.home {
+  width: 250px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 25px;
+  overflow: hidden;
+  margin-left: 20px;
+  background-color: #fff;
+}
+
+.home .home-img img{
+  height:135px;
+  width: 100%;
+  object-fit: cover;
+}
+.home .home-content{
+  padding: 0px 10px; 
+}
+.home .home-content h3{
+  color:#212121;
+  font-size:0.8666rem;
+  margin: 15px 0px;
+}
+
+.home .home-content p{
+  font-size: 0.7333rem;
+  color: #616161;
+}
+.home .home-content p i{
+  font-size: 12px;
+  position: relative;
+  top: 2px;
+}
+
+.btn-homez{
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border:1px solid #31bad5;
+  height: 40px;
+  line-height: 23px;
+}
+.btn-homez i{
+  position: relative;
+  top: 7px;
+}

@@ -32,5 +32,32 @@ $(document).ready(function () {
 
 
 
+  // new homez
+
+  function checkWidthWindow() {
+    if($(window).width()< 993){
+      sliderNewHomez();
+    }else{
+      $('.new-homez').owlCarousel('destroy')
+    }
+
+  }
+
+  
+  function sliderNewHomez() {
+    
+    $('.new-homez').owlCarousel({
+      rtl:true,
+      responsiveClass: true,
+      autoWidth: true,
+    })
+  }
+  
+  checkWidthWindow();
+
+
+  $(window).on('resize',function(e){
+    checkWidthWindow();
+  })
 
 })
