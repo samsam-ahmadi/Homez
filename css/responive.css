@@ -2,6 +2,10 @@
    .search-input{
      width: 90%;
    }
+   .homez-carousle-items .item .card{
+     right: 10px;
+     bottom: -120px;
+   }
 }
 @media only screen and (max-width: 920px) {
 }
@@ -19,6 +23,9 @@
     display: flex;
     justify-content: start;
     flex-flow: row nowrap;
+  }
+  .homez-carousle{
+    flex-direction: column-reverse;
   }
 }
 

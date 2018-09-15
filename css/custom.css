@@ -265,7 +265,112 @@ nav ul a:hover{
   height: 40px;
   line-height: 23px;
 }
+.btn-homez.fill{
+  background-color: #31bad5;
+  line-height: 35px;
+}
 .btn-homez i{
   position: relative;
   top: 7px;
+}
+
+/* selected homez */
+.selected-homez{
+  margin-top: 100px;
+}
+.homez-carousle-description h2{
+  font-size: 1.06666rem;
+}
+
+
+.homez-carousle{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homez-carousle-items img{
+  width:500px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.homez-carousle-items .item{
+  position: relative;
+  display: none;
+}
+.homez-carousle-items .item.active{
+  display: inherit;
+}
+.homez-carousle-items .item .card {
+  position: absolute;
+  bottom: -80px;
+  z-index: 5;
+  right: -45px;
+  text-align: right;
+  border-radius: 15px;
+}
+  
+.homez-carousle-items .item .card .card-content{
+  padding:20px;
+  color:#616161;
+}
+
+.homez-carousle-items .item .card, .homez-carousle-items .item img {
+  opacity: 0;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  right:-45px !important;
+}
+.homez-carousle-items .item.active .card,.homez-carousle-items .item.active img{
+  animation: slider 1s ease-in-out forwards;
+  -webkit-animation: slider 1s ease-in-out forwards;
+  opacity: 1;
+  right: 0px;
+}
+.homez-carousle-items .item .card .card-content i {
+  position: relative;
+  top: 5px;
+}
+
+#prev-slide{
+  width:40px;
+}
+#prev-slide i {
+  top: 8px;
+  left: 6px;
+}
+
+
+
+
+
+
+@keyframes slider{
+  from{
+    right: -40px !important;
+    opacity: 0.5;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+  }
+
+to{
+  right:-50px !important;
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
 }
