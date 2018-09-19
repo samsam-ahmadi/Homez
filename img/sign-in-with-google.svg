@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 58">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-1{clip-rule:evenodd}.cls-3{fill:#fff}.cls-4{opacity:.54}.cls-5{font-size:14px;font-family:Roboto-Medium,Roboto;font-weight:500;letter-spacing:.015em}.cls-6{clip-path:url(#clip-path)}.cls-7{clip-path:url(#clip-path-2)}.cls-8{fill:#ea4334}.cls-9{clip-path:url(#clip-path-3)}.cls-10{fill:#4184f3}.cls-11{clip-path:url(#clip-path-5)}.cls-12{fill:#fabb04}.cls-13{clip-path:url(#clip-path-7)}.cls-14{fill:#34a753}.cls-15{filter:url(#Rectangle_2593)}
+        </style>
+        <filter id="Rectangle_2593" width="212" height="58" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <clipPath id="clip-path">
+            <path id="Path_1703" d="M24-29.52a4.988 4.988 0 0 1 3.48 1.34l2.54-2.48A8.647 8.647 0 0 0 24-33a8.993 8.993 0 0 0-8.04 4.96l2.91 2.26A5.44 5.44 0 0 1 24-29.52z" class="cls-1" data-name="Path 1703"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_1702" d="M15-15h18v-18H15z" class="cls-2" data-name="Path 1702"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="Path_1706" d="M32.64-23.8a7.71 7.71 0 0 0-.19-1.84H24v3.34h4.96a4.4 4.4 0 0 1-1.84 2.92l2.84 2.2a8.8 8.8 0 0 0 2.68-6.62z" class="cls-1" data-name="Path 1706"/>
+        </clipPath>
+        <clipPath id="clip-path-5">
+            <path id="Path_1709" d="M18.88-22.22a5.54 5.54 0 0 1-.3-1.78 5.822 5.822 0 0 1 .29-1.78l-2.91-2.26A9.008 9.008 0 0 0 15-24a9.008 9.008 0 0 0 .96 4.04l2.92-2.26z" class="cls-1" data-name="Path 1709"/>
+        </clipPath>
+        <clipPath id="clip-path-7">
+            <path id="Path_1712" d="M24-15a8.578 8.578 0 0 0 5.96-2.18l-2.84-2.2a5.327 5.327 0 0 1-3.12.9 5.418 5.418 0 0 1-5.12-3.74l-2.91 2.26A8.978 8.978 0 0 0 24-15z" class="cls-1" data-name="Path 1712"/>
+        </clipPath>
+    </defs>
+    <g id="Group_4611" data-name="Group 4611" transform="translate(-4347 8541)">
+        <g class="cls-15" transform="translate(4347 -8541)">
+            <rect id="Rectangle_2593-2" width="194" height="40" class="cls-3" data-name="Rectangle 2593" rx="2" transform="translate(9 6)"/>
+        </g>
+        <g id="Group_4609" data-name="Group 4609" transform="translate(4357 -8491)">
+            <g id="Group_4610" data-name="Group 4610">
+                <g id="Group_4599" class="cls-4" data-name="Group 4599">
+                    <g id="Group_4598" data-name="Group 4598" transform="translate(54 -32)">
+                        <text id="Sign_in_with_Google" class="cls-5" data-name="Sign in with Google" transform="translate(0 13)">
+                            <tspan x="0" y="0">Sign in with Google</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group_4602" class="cls-6" data-name="Group 4602">
+                <g id="Group_4601" class="cls-7" data-name="Group 4601">
+                    <path id="Path_1701" d="M10.96-20.78h24.06V-38H10.96z" class="cls-8" data-name="Path 1701"/>
+                </g>
+            </g>
+            <g id="Group_4604" class="cls-9" data-name="Group 4604">
+                <g id="Group_4603" class="cls-7" data-name="Group 4603">
+                    <path id="Path_1704" d="M19-12.18h18.64v-18.46H19z" class="cls-10" data-name="Path 1704"/>
+                </g>
+            </g>
+            <g id="Group_4606" class="cls-11" data-name="Group 4606">
+                <g id="Group_4605" class="cls-7" data-name="Group 4605">
+                    <path id="Path_1707" d="M10-14.96h13.88v-18.08H10z" class="cls-12" data-name="Path 1707"/>
+                </g>
+            </g>
+            <g id="Group_4608" class="cls-13" data-name="Group 4608">
+                <g id="Group_4607" class="cls-7" data-name="Group 4607">
+                    <path id="Path_1710" d="M10.97-10h23.99v-17.22H10.97z" class="cls-14" data-name="Path 1710"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
