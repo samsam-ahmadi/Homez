@@ -34,8 +34,8 @@
             <li>
               <a href="/">افزودن مسکن</a>
             </li>
-            <li>
-              <a href="/">
+            <li class="modal-trigger" data-target="login">
+              <a>
                 <span>ثبت‌نام</span>
                 / ورود
               </a>
@@ -52,13 +52,50 @@
       <li>
         <a href="/">افزودن مسکن</a>
       </li>
-      <li>
-        <a href="/">
+      <li class="modal-trigger" data-target="login">
+        <a>
           <span>ثبت‌نام</span>
           / ورود
         </a>
       </li>
     </ul>
+
+
+    <!-- modal login -->
+    <div id="login" class="modal rtl white">
+      <div class="modal-content modal-login center-align ">
+        <!-- description -->
+        <div class="description">
+          <img height="25px" src="/img/logo.svg" alt="homez logo">
+          <p>در بین هزاران اقامتگاه جستجو کنید و خانه رویایی خود را پیدا کنید.</p>
+          <a href=""><img src="/img/sign-in-with-google.svg" height="60px" alt="sign in with google"></a>
+        </div>
+        <!-- / description -->
+        <div class="divider-login">
+          <p>یا</p>
+        </div>
+
+        <!-- login -->
+        <div class="login">
+
+          <p class="border-bottom center-align">ثبت‌نام / ورود</p>
+
+          <div class="input-field">
+            <input id="email" type="email" class="validate">
+            <label for="email">آدرس ایمیل</label>
+          </div>
+
+          <div class="input-field">
+            <input id="password" type="password" class="validate">
+            <label for="password">رمز عبور</label>
+          </div>
+
+          <a class="btn btn-homez btn-login mg-top fill white-text">ورود</a>
+        </div>
+        <!-- / login -->
+      </div>
+    </div>
+
   </header>
 
 

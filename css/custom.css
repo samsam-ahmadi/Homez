@@ -374,3 +374,60 @@ to{
 }
 
 }
+
+
+/* login and register */
+#login{
+  box-shadow: 0 9px 20px 0 rgba(75, 75, 75, 0.26);
+  top: 0px;
+  bottom: 0px;
+  max-height: 60%;
+  width: 550px;
+}
+
+#login .description ,#login .login {
+   width: 45%;
+}
+
+.modal-login{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.modal-login .input-field label {
+  text-align: right;
+  right: 0px;
+  left: unset !important;
+  transform-origin: 100% !important;
+}
+
+.btn-login{
+  width:45%;
+}
+.modal-overlay{
+  background-color: #fff;
+}
+.divider-login{
+  width: 1px;
+  height: 230px;
+  position: relative;
+  background: #d6d6d6;
+  margin: 15px;
+}
+
+
+.divider-login p {
+  transform: rotate(-90deg);
+  background: #FFF;
+  color: #d6d6d6;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  right: -15px;
+}
